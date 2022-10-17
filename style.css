@@ -1,0 +1,207 @@
+@import url(./fonts/fonts.css);
+
+body{
+    font-family: Roboto;
+    margin: 0;
+}
+
+.main_content {
+    max-width: 1280px;
+    width: 99.3%;
+    margin: auto;
+}
+
+.header_content {
+    margin: auto;
+    max-width: 1280px;
+    width: 99.3%;
+    margin-top: 21px;  
+}
+
+.logotype {
+    padding-left: 37px; 
+}
+
+header img {
+    max-width: 9%;
+    height: auto;
+}
+
+/* section howtowatch */
+
+.howtowatch_content {
+    margin-left: 37px;
+}
+
+.coursepoints {
+    max-width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    font-size: 1.25rem;
+}
+
+.coursepoints div img {
+    max-height: 30%;
+    width: auto;
+    margin-right: 4%;
+} 
+
+.coursepoints div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 29%;
+}
+
+.coursepoints div:nth-child(2) {
+    width: 22%;
+}
+
+.header1_photo {
+    margin-top: 29px;
+    max-width: 88%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1_photo div {
+    max-width: 59%;
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.header1_photo div:last-child {
+    width: 28.3%;
+}
+
+.header1_photo div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: Roboto-Slap;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 100%;
+}
+
+.header1_photo p {
+    max-width: 72%;
+}
+
+.quote {
+    font-family: Roboto-Slap;
+    font-weight: 400;
+    background-color: #1E4681;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    max-width: 41%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 68px;
+    margin-left: 22.5%;
+    margin-bottom: 173px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote p:first-child {
+    padding: 5% 3% 2% 5%; 
+    text-align: left;
+    line-height: 130%;
+}
+
+.quote p:last-child {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+
+/* section aboutcourse */
+
+.aboutcourse_content {
+    margin-left: 37px;
+}
+
+.course_descrip_photo {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 150%;
+}
+
+.course_descrip_photo div:last-child {
+    width: 31%;
+}
+
+.course_descrip_photo div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: Roboto-Slap;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 101.38%;
+}
+
+.main_descrip {
+    max-width: 58%;
+}
+
+.main_descrip p {
+    margin-top: 0;
+}
+
+.photo_lessons_comments {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 81%;
+    margin-top: 70px;
+    margin-bottom: 162px;
+}
+
+.comments_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 130%;
+    margin-left: 15%;
+}
+
+.comments_list div {
+    max-width: 26%;
+    height: auto;
+}
+
+.photo_comments {
+    width: 30%;
+}
+
+.photo_lessons_comments img {
+    max-width: 100%;
+    height: auto;
+}
+
+.commentheader {
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
